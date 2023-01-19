@@ -1,0 +1,28 @@
+.main-wrapper {
+    background-color: $main-bg-color;
+}
+
+.container {
+    padding: 50px;
+}
+
+.main-heading{
+    color: hsl(233deg 5% 34%);
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.sub-heading {
+    color: hsl(237deg 13% 35%);
+    margin-bottom: 20px;
+}
+
+.description-text {
+    color: hsl(0deg 0% 68%);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.card{
+    background-color: hsl(0deg 0% 100%);
+}
