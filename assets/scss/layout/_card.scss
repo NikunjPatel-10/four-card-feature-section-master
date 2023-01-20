@@ -3,13 +3,13 @@
 }
 
 .container {
-    padding: 50px;
+    padding: 200px;
 }
 
 .main-heading{
     color: hsl(233deg 5% 34%);
-    font-weight: 100;
-    margin-bottom: 20px;
+    font-weight: 300;
+    // margin-bottom: 5px;
 }
 
 .sub-heading {
@@ -19,10 +19,58 @@
 
 .description-text {
     color: hsl(0deg 0% 68%);
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 20px;
+    text-align: center;
+   
+      span::before{
+        content: "\A";
+        white-space: pre;
+        
+    }
+         
+    
 }
 
 .card{
+    padding: 30px;
     background-color: hsl(0deg 0% 100%);
+    margin: 15px;
+    border-radius: 10px;
+    // border-top: 5px solid red;
+
+    h2{
+        margin-bottom: 15px;
+        color: hsl(240deg 4% 35%);
+        font-weight: 600;
+    }
+
+    p{
+        margin-bottom: 40px;
+        line-height: 20px;
+        color: hsl(240deg 1% 67%);
+        // font-size: 20px;
+    }  
 }
+
+.card1 > .card:first-child {
+    border-top: 5px solid hsl(180deg 61% 55%);
+}
+
+.card2 > .card:nth-child(1){
+    border-top: 5px solid  hsl(359deg 78% 62%);
+
+}
+
+.card2 > .card:nth-child(2){
+    border-top: 5px solid hsl(31deg 94% 66%);
+}
+
+.card3 > .card:first-child{
+    border-top: 5px solid hsl(210deg 82% 63%);
+}
+
+
+
+
+

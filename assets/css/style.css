@@ -8,6 +8,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -30,6 +31,10 @@ body {
   justify-content: center;
 }
 
+.justify-content-end {
+  justify-content: end;
+}
+
 .align-items-center {
   align-items: center;
 }
@@ -38,18 +43,33 @@ body {
   flex-direction: column;
 }
 
+.bg-skybule {
+  background-color: hsl(180deg, 61%, 55%);
+}
+
+.bg-yellow {
+  background-color: hsl(31deg, 94%, 66%);
+}
+
+.bg-blue {
+  background-color: hsl(210deg, 82%, 63%);
+}
+
+.bg-red {
+  background-color: hsl(359deg, 78%, 62%);
+}
+
 .main-wrapper {
   background-color: hsl(0deg, 0%, 98%);
 }
 
 .container {
-  padding: 50px;
+  padding: 200px;
 }
 
 .main-heading {
   color: hsl(233deg, 5%, 34%);
-  font-weight: 100;
-  margin-bottom: 20px;
+  font-weight: 300;
 }
 
 .sub-heading {
@@ -59,12 +79,46 @@ body {
 
 .description-text {
   color: hsl(0deg, 0%, 68%);
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 20px;
+  text-align: center;
+}
+.description-text span::before {
+  content: "\a";
+  white-space: pre;
 }
 
 .card {
+  padding: 30px;
   background-color: hsl(0deg, 0%, 100%);
+  margin: 15px;
+  border-radius: 10px;
+}
+.card h2 {
+  margin-bottom: 15px;
+  color: hsl(240deg, 4%, 35%);
+  font-weight: 600;
+}
+.card p {
+  margin-bottom: 40px;
+  line-height: 20px;
+  color: hsl(240deg, 1%, 67%);
+}
+
+.card1 > .card:first-child {
+  border-top: 5px solid hsl(180deg, 61%, 55%);
+}
+
+.card2 > .card:nth-child(1) {
+  border-top: 5px solid hsl(359deg, 78%, 62%);
+}
+
+.card2 > .card:nth-child(2) {
+  border-top: 5px solid hsl(31deg, 94%, 66%);
+}
+
+.card3 > .card:first-child {
+  border-top: 5px solid hsl(210deg, 82%, 63%);
 }
 
 /*# sourceMappingURL=style.css.map */

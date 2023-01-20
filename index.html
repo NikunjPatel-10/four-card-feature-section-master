@@ -8,75 +8,67 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,500;1,600&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Four card feature section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+
 </head>
 
 <body>
-  <div class="main-wrapper h-100 w-100 d-flex justify-content-center ">
+  <div class="main-wrapper h-100 w-100 d-flex justify-content-center align-items-center">
     <div class="container">
       <div class="d-flex flex-column justify-content-center align-items-center">
 
         <h1 class="main-heading">Reliable, efficient delivery</h1>
         <h1 class="sub-heading"> Powered by Technology</h1>
 
-        <p class="description-text"> Our Artificial Intelligence powered tools use millions of project data points
-          to ensure that your project is successful </p>
+        <p class="description-text"> Our Artificial Intelligence powered tools use millions of project data <span> points
+          to ensure that your project is successful</span></p>
 
       </div>
-      <section class="card-wrapper">
+      <section class="card-wrapper d-flex  ">
 
-        <div class="card">
-          <h3> Supervisorjhbdb </h3>
-          <p class="card-text">Monitors activity to identify project roadblocks </p>
-          <figure>
-            <img src="images/icon-supervisor.svg" alt="">
-          </figure>
+        <div class="card1 d-flex align-items-center">
+          <div class="card">
+              <h2> Supervisorjhbdb </h2>
+              <p class="card-text">Monitors activity to identify project roadblocks </p>  
+            <figure class="image-wrapper d-flex justify-content-end ">
+              <img src="images/icon-supervisor.svg" alt="">
+            </figure>
+          </div>
         </div>
-        <div class="card">
-          <h3>Team Builder</h3>
-          <p>Scans our talent network to create the optimal team for your project</p>
-          <figure>
-            <img src="images/icon-supervisor.svg" alt="">
-          </figure>
+        <div class="card2">
+          <div class="card">
+              <h2> Supervisorjhbdb </h2>
+              <p class="card-text">Monitors activity to identify project roadblocks </p>
+              <figure class="image-wrapper d-flex justify-content-end ">
+                <img src="images/icon-team-builder.svg" alt="">
+              </figure>
+          </div>
+          <div class="card">
+              <h2> Supervisorjhbdb </h2>
+              <p class="card-text">Monitors activity to identify project roadblocks </p>
+              <figure class="image-wrapper d-flex justify-content-end">
+                <img src="images/icon-karma.svg" alt="">
+              </figure>
+          </div>
         </div>
-
-        <div class="card">
-          <h3> Karma</h3>
-          <p> Regularly evaluates our talent to ensure quality</p>
-          <figure>
-            <img src="images/icon-supervisor.svg" alt="">
-          </figure>
-        </div>
-        <div class="card">
-          <h3> Calculator</h3>
-          <p>Uses data from past projects to provide better delivery estimates</p>
-          <figure>
-            <img src="images/icon-supervisor.svg" alt="">
-          </figure>
+        <div class=" card3 d-flex align-items-center">
+          <div class="card">
+              <h2> Supervisorjhbdb </h2>
+              <p class="card-text">Monitors activity to identify project roadblocks </p>
+              <figure class="image-wrapper d-flex justify-content-end">
+                <img src="images/icon-calculator.svg" alt="">
+              </figure>
+          </div>
         </div>
       </section>
     </div>
 
-
   </div>
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+ 
 </body>
 
 </html>

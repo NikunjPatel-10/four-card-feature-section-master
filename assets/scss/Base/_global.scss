@@ -9,6 +9,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -31,10 +32,29 @@ body {
     justify-content: center;
 }
 
+.justify-content-end {
+    justify-content: end;
+}
+
 .align-items-center {
     align-items: center;
 }
 
+
+
 .flex-column{
     flex-direction: column;
+}
+
+.bg-skybule{
+    background-color: hsl(180deg 61% 55%);
+}
+.bg-yellow{
+    background-color: hsl(31deg 94% 66%);
+}
+.bg-blue{
+    background-color: hsl(210deg 82% 63%);
+}
+.bg-red{
+    background-color: hsl(359deg 78% 62%);
 }
