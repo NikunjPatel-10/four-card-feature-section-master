@@ -8,11 +8,8 @@ html,
 body {
   height: 100%;
   width: 100%;
-  font-family: "Poppins", sans-serif;
-}
-
-body {
   overflow: hidden;
+  font-family: "Poppins", sans-serif;
 }
 
 .h-100 {
@@ -37,6 +34,14 @@ body {
 
 .align-items-center {
   align-items: center;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.border {
+  border: 2px solid yellow;
 }
 
 .flex-column {
@@ -64,22 +69,23 @@ body {
 }
 
 .container {
-  padding: 200px;
+  padding-top: 80px;
 }
 
 .main-heading {
   color: hsl(233deg, 5%, 34%);
-  font-weight: 300;
+  font-weight: 200;
+  margin-bottom: 5px;
 }
 
 .sub-heading {
-  color: hsl(237deg, 13%, 35%);
-  margin-bottom: 20px;
+  color: hsl(231deg, 11%, 35%);
+  margin-bottom: 5px;
 }
 
 .description-text {
   color: hsl(0deg, 0%, 68%);
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -88,11 +94,16 @@ body {
   white-space: pre;
 }
 
+section .card1, section .card2, section .card3 {
+  width: 25%;
+}
+
 .card {
-  padding: 30px;
+  padding: 25px;
   background-color: hsl(0deg, 0%, 100%);
   margin: 15px;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .card h2 {
   margin-bottom: 15px;
@@ -101,24 +112,68 @@ body {
 }
 .card p {
   margin-bottom: 40px;
-  line-height: 20px;
+  line-height: 25px;
   color: hsl(240deg, 1%, 67%);
+}
+.card p span::before {
+  content: "\a";
+  white-space: pre;
+}
+.card figure {
+  margin: 10px 0px;
 }
 
 .card1 > .card:first-child {
-  border-top: 5px solid hsl(180deg, 61%, 55%);
+  border-top: 5px solid hsl(180deg, 62%, 55%);
+  width: 100%;
 }
 
 .card2 > .card:nth-child(1) {
-  border-top: 5px solid hsl(359deg, 78%, 62%);
+  border-top: 5px solid hsl(0deg, 78%, 62%);
 }
 
 .card2 > .card:nth-child(2) {
-  border-top: 5px solid hsl(31deg, 94%, 66%);
+  border-top: 5px solid hsl(34deg, 97%, 64%);
 }
 
 .card3 > .card:first-child {
-  border-top: 5px solid hsl(210deg, 82%, 63%);
+  border-top: 5px solid hsl(212deg, 86%, 64%);
+  width: 100%;
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    padding: 60px 20px;
+  }
+  .card-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-wrapper .card1, .card-wrapper .card2, .card-wrapper .card3 {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .container {
+    padding: 60px 20px;
+    font-size: 15px;
+  }
+  .card-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .card-wrapper .card1, .card-wrapper .card2, .card-wrapper .card3 {
+    width: 100%;
+  }
+  .main-heading {
+    font-size: 27px;
+  }
+  .sub-heading {
+    font-size: 27px;
+  }
+  .description-text {
+    font-size: 18px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
