@@ -61,6 +61,7 @@ section {
     p {
         margin-bottom: 35px;
         line-height: 25px;
+        font-size: 15px;
         color: hsl(240deg 1% 67%);
 
         span::before {
@@ -115,17 +116,17 @@ section {
 }
 
 @media only screen and (max-width:375px) {
-    
+
     .main-heading {
-        font-size: 23px;
+        font-size: 21px;
     }
 
     .sub-heading {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .description-text {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .card {
@@ -133,10 +134,12 @@ section {
 
         h2 {
             margin-bottom: 5px;
+            font-size: 21px;
         }
 
         p {
             margin-bottom: 20px;
+            font-size: 13px;
         }
     }
 

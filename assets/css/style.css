@@ -115,6 +115,7 @@ section .card3 {
 .card p {
   margin-bottom: 35px;
   line-height: 25px;
+  font-size: 15px;
   color: hsl(240deg, 1%, 67%);
 }
 .card p span::before {
@@ -159,22 +160,24 @@ section .card3 {
 }
 @media only screen and (max-width: 375px) {
   .main-heading {
-    font-size: 23px;
+    font-size: 21px;
   }
   .sub-heading {
-    font-size: 22px;
+    font-size: 20px;
   }
   .description-text {
-    font-size: 16px;
+    font-size: 15px;
   }
   .card {
     margin: 15px 0px;
   }
   .card h2 {
     margin-bottom: 5px;
+    font-size: 21px;
   }
   .card p {
     margin-bottom: 20px;
+    font-size: 13px;
   }
 }
 
