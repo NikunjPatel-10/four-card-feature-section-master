@@ -3,142 +3,143 @@
 }
 
 .container {
-    padding-top: 80px;   
+    padding-top: 80px;
 }
 
 
-.main-heading{
-    color:$main-heading-color;
-    font-weight:200;
+.main-heading {
+    color: $main-heading-color;
+    font-weight: 200;
     margin-bottom: 5px;
 }
 
 .sub-heading {
-    color:$sub-heading-color;
+    color: $sub-heading-color;
     margin-bottom: 5px;
 }
 
 .description-text {
-    color:$description-text-color;
+    color: $description-text-color;
     font-size: 18px;
     margin-bottom: 20px;
     text-align: center;
-   
-      span::before{
+
+    span::before {
         content: "\A";
         white-space: pre;
-        
+
     }
-         
-    
+
+
 }
 
 section {
-    .card1, .card2, .card3{
+
+    .card1,
+    .card2,
+    .card3 {
         width: 25%;
     }
 }
 
-.card{
+.card {
     padding: 25px;
     background-color: hsl(0deg 0% 100%);
     margin: 15px;
     border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     // width: 100%;
     // -webkit-margin-collapse:separate;
     // border-top: 5px solid red;
 
-    h2{
-        margin-bottom: 15px;
+    h2 {
+        margin-bottom: 10px;
         color: hsl(240deg 4% 35%);
         font-weight: 600;
     }
 
-    p{
-        margin-bottom: 40px;
+    p {
+        margin-bottom: 35px;
         line-height: 25px;
         color: hsl(240deg 1% 67%);
-        
-        span::before{
+
+        span::before {
             content: "\A";
             white-space: pre;
         }
-        // font-size: 20px;
-    }  
 
-    figure{
+        // font-size: 20px;
+    }
+
+    figure {
         margin: 10px 0px;
     }
 }
 
-.card1 > .card:first-child {
+.card1>.card:first-child {
     border-top: 5px solid $cyan;
     width: 100%;
 }
 
-.card2 > .card:nth-child(1){
+.card2>.card:nth-child(1) {
     border-top: 5px solid $red;
 
 }
 
-.card2 > .card:nth-child(2){
+.card2>.card:nth-child(2) {
     border-top: 5px solid $yellow;
 }
 
-.card3 > .card:first-child{
+.card3>.card:first-child {
     border-top: 5px solid $blue;
     width: 100%;
 }
 
 
 
-@media only screen and (max-width:576px){
-    .container{
+@media only screen and (max-width:576px) {
+    .container {
         padding: 60px 20px;
     }
 
-    .card-wrapper{
+    .card-wrapper {
         display: flex;
         flex-direction: column;
 
-        .card1, .card2, .card3{
+        .card1,
+        .card2,
+        .card3 {
             width: 100%;
         }
     }
 }
 
-@media only screen and (max-width:375px){
-    .container{
-        padding: 60px 20px;
-        font-size: 15px;
+@media only screen and (max-width:375px) {
+    
+    .main-heading {
+        font-size: 23px;
     }
 
-    .card-wrapper{
-        display: flex;
-        flex-direction: column;
+    .sub-heading {
+        font-size: 22px;
+    }
 
-        .card1, .card2, .card3{
-            width: 100%;
+    .description-text {
+        font-size: 16px;
+    }
+
+    .card {
+        margin: 15px 0px;
+
+        h2 {
+            margin-bottom: 5px;
+        }
+
+        p {
+            margin-bottom: 20px;
         }
     }
 
-    .main-heading{
-        font-size: 27px;
-    }
 
-    .sub-heading{
-        font-size: 27px;
-    }
 
-    .description-text{
-        font-size: 18px;
-    }
-
-   
 }
-
-
-
-
-
