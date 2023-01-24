@@ -97,7 +97,9 @@ body {
 section .card1, section .card2, section .card3 {
   width: 25%;
 }
-
+.hello{
+  display: flex;
+}
 .card {
   padding: 25px;
   background-color: hsl(0deg, 0%, 100%);
