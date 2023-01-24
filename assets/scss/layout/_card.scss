@@ -24,11 +24,11 @@
     margin-bottom: 20px;
     text-align: center;
 
-    span::before {
-        content: "\A";
-        white-space: pre;
+    // span::before {
+    //     content: "\A";
+    //     white-space: pre;
 
-    }
+    // }
 
 
 }
@@ -118,15 +118,15 @@ section {
 @media only screen and (max-width:375px) {
 
     .main-heading {
-        font-size: 21px;
+        font-size: 18px;
     }
 
     .sub-heading {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .description-text {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .card {
@@ -134,12 +134,12 @@ section {
 
         h2 {
             margin-bottom: 5px;
-            font-size: 21px;
+            font-size: 18px;
         }
 
         p {
             margin-bottom: 20px;
-            font-size: 13px;
+            font-size: 12px;
         }
     }
 

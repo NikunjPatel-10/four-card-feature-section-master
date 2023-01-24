@@ -149,8 +149,8 @@ section .card3 {
     flex-direction: column;
   }
   .card-wrapper .card1,
-  .card-wrapper .card2,
-  .card-wrapper .card3 {
+.card-wrapper .card2,
+.card-wrapper .card3 {
     width: 100%;
   }
 }
@@ -175,6 +175,4 @@ section .card3 {
     margin-bottom: 20px;
     font-size: 12px;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
