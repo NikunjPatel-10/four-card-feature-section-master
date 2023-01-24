@@ -24,11 +24,11 @@
     margin-bottom: 20px;
     text-align: center;
 
-    // span::before {
-    //     content: "\A";
-    //     white-space: pre;
+    span::before {
+        content: "\A";
+        white-space: pre;
 
-    // }
+    }
 
 
 }
@@ -64,10 +64,10 @@ section {
         font-size: 15px;
         color: hsl(240deg 1% 67%);
 
-        span::before {
-            content: "\A";
-            white-space: pre;
-        }
+        // span::before {
+        //     content: "\A";
+        //     white-space: pre;
+        // }
 
         // font-size: 20px;
     }
